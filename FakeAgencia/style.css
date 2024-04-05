@@ -1,0 +1,74 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar
+{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    margin-left: 5%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.menu li
+{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.menu a
+{
+    color: #180F4A;
+}
+
+
+#Contact
+{
+    color: white;
+    background: #180F4A;
+    text-align: center;
+    padding: 10px 26px;
+    border-radius: 6px;
+
+}
+
+
+
+.content
+{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    border: 1px solid red;
+    margin-left: 5%;
+    margin-top: 12%;      
+}
+
+.img
+{
+    border-radius: 5px;
+    position: relative;
+    float: right;
+    border-bottom: ;
+}
+
+.btn
+{
+    padding: 10px 26px;
+    background-color: #FF2978;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
