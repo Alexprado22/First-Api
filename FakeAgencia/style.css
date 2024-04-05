@@ -1,74 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *
 {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    text-decoration: none;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar
-{
-    display: flex;    
-    justify-content: space-between;
+{   
+    display: flex;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+   
+  
+}
+
+header
+{
+   position: relative;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+   padding-top: 6.5%;
+   
 }
 
 .logo
 {
-    margin-left: 5%;
-    padding: 10px;
-    font-size: 20px;
+    flex: 20%;
+    margin-left:20px; 
+    position: relative;
+    bottom: 10px;
+    
+        
 }
-
-.menu li
+.logo h1
 {
-    display: inline;
-    padding: 10px;
-    font-size: 20px;
-}
-
-.menu a
-{
-    color: #180F4A;
+    font-size: 40px;
+    font-family: 'Lobster', sans-serif;
+    color: #180F4A; 
 }
 
 
-#Contact
+.links
 {
+    padding: 20px;    
+    flex: 70%;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.links a 
+{
+    text-decoration: none;
+    padding: 20px 16px;  
+    color: #180F4A;  
+    font-size: 19px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 10px;
+}
+
+.links a:hover
+{
+    border-top: #180F4A 4px solid;
+    color: #FF2989;
+}
+
+
+#btn_FaleConosco
+{
+    padding: 10px 25px;
     color: white;
     background: #180F4A;
-    text-align: center;
-    padding: 10px 26px;
-    border-radius: 6px;
-
-}
-
-
-
-.content
-{
-    width: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    border: 1px solid red;
+    border-radius: 4px;
     margin-left: 5%;
-    margin-top: 12%;      
+    margin-right:10%;
 }
 
-.img
+#btn_FaleConosco:hover
 {
-    border-radius: 5px;
-    position: relative;
-    float: right;
-    border-bottom: ;
+    border-top: 0;
+    background: #554e7c;
+
 }
 
-.btn
+.informacoes
 {
-    padding: 10px 26px;
-    background-color: #FF2978;
-    color: white;
-    border-radius: 5px;
-    font-size: 20px;
+    width: 40%;
+    margin-left: 10%;
+    flex: 40%;
+    color: #180F4A; 
+   
+    
+}
+
+.informacoes h2
+{
+    font-weight: 900;
+    font-size: 20px;  
+    color: #180F4A; 
+    
+}
+.informacoes p
+{
+    color: grey;
+    text-align: left; 
+}
+
+.Titulo
+{
+    font-size: 7vh;
+    padding: 2%;
+    
+}
+
+.informacoes p
+{
+    color: gray; 
+}
+
+.btn_contrateagora
+{
+    display: inline-block;
+    background: #FF2978;
+    padding:2.5%;
+    color:white;
+    text-transform: uppercase;
+    border-radius:5px;
+    text-decoration: none;
+    margin-top: 3%;
+
+}
+
+.btn_contrateagora:hover
+{
+    background: #cc7b9f;
+
+}
+
+#img
+{
+    
+    margin-right:10%;
+    flex:40%;
+    text-align:center;
+}
+#TagImg
+{
+    max-width: 90%;
+
 }
